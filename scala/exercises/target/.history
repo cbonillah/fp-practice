@@ -1,0 +1,53 @@
+compile
+run
+compile
+run
+chapter_2.Mymodule
+chapter_2.MyModule
+run chapter_2.MyModule
+compile
+run
+compile
+run
+compile
+run
+compile
+run
+compile
+run
+compile
+run
+compile
+run
+:paste
+object Arrays {
+  def isSorted[A](array: Array[A], f: (A, A) => Boolean): Boolean = {
+    @annotation.tailrec
+    def loop(n: Int): Boolean =
+      if (n >= array.length) true
+      else if (f(array(n - 1), array(n))) loop(n + 1)
+      else false
+  
+    loop(1)
+  }
+  def lessOrEqual(a: Int, b: Int): Boolean = a <= b
+  def main(args: Array[String]): Unit = {
+    var n = Array(0, 1, 4, 3, 4, 5)
+    var result = isSorted(n, lessOrEqual)
+    if (result) {
+      println("The array is sorted")
+    } else {
+      println("The array is not sorted")
+    }
+  }
+}
+compile
+run
+compile
+run
+compile
+run
+compile
+run
+compile
+run
