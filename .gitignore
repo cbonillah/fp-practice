@@ -12,6 +12,7 @@ scala/.lib/
 scala/.history/
 scala/dist/*
 scala/target/
+scala/exercises/target
 scala/lib_managed/
 scala/src_managed/
 project/boot/

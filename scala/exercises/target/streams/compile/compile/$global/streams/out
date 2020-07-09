@@ -1,4 +1,0 @@
-[0m[[0m[31merror[0m] [0m[0m/mnt/d/Projects/ADL/fp-practice/scala/exercises/src/main/scala/chapter_3/Chapter3.scala:26:28: ';' expected but '=' found.[0m
-[0m[[0m[31merror[0m] [0m[0m		vale list1: List[Double] = Nil[0m
-[0m[[0m[31merror[0m] [0m[0m		                         ^[0m
-[0m[[0m[31merror[0m] [0m[0mone error found[0m
