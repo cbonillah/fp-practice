@@ -1,0 +1,4 @@
+[debug] [exercises] Classpath dependencies List()
+[debug] [exercises] Dependencies from configurations List()
+[debug] Bloop wrote the configuration of project 'exercises' to '/mnt/d/Projects/ADL/fp-practice/scala/.bloop/exercises.json'
+[success] Generated .bloop/exercises.json

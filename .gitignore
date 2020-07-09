@@ -1,0 +1,27 @@
+# Elixir
+
+*.beam
+
+# Scala / SBT
+
+*.class
+*.log
+
+scala/.cache/
+scala/.lib/
+scala/.history/
+scala/dist/*
+scala/target/
+scala/lib_managed/
+scala/src_managed/
+project/boot/
+project/plugins/project/
+
+# IDE Specific
+
+**/.metals
+**/.vscode
+**/.bloop
+**/.idea
+**/.worksheet
+**/.scala_dependencies
